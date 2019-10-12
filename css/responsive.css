@@ -1,0 +1,61 @@
+div.one-third {
+	width: 47.5%;
+}
+
+div.one-third-second {
+	margin: 0;
+}
+
+div.one-third-last {
+	clear: both;
+	float: none;
+	width: auto;
+	padding: 20px 0 0 0;
+}
+
+div.nav ul li {
+	width: 25%;
+	border-bottom: 1px solid #bababa;
+}
+
+@media screen and (max-width: 620px) {
+	.menu-trigger {
+		display: block;
+		color: #305782;
+		background-color: #d5dce4;
+		padding: 10px;
+		text-align: right;
+		font-size: 83%;
+		cursor: pointer;
+	}
+
+	div.nav {
+		display: none;
+	}
+	
+	div.nav-expanded {
+		display: block;
+	}
+	
+	div.nav ul li {
+		float: none;
+		border-bottom: 2px solid #d5dce4;
+		width: 100%;
+		text-align: center;
+	}
+	
+	div.nav ul li:last-child {
+		border-bottom: none;
+	}
+	
+	div.mobile-collapse {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+	
+	.hide-mobile {
+		display: none;
+	}
+		
+}
